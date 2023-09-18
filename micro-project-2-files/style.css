@@ -1,0 +1,216 @@
+body{
+    padding: 0;
+    margin: 0;
+  }
+  nav{
+    display: flex;
+    position: fixed;
+    background-color: #6F6AF7;
+    top:0;
+    align-items: center;
+    width: 100vw;
+    margin: auto;
+    font-weight: 400;
+    justify-content: space-between;
+    padding-left: 28px;
+    padding-right: 28px;
+    color: white;
+    box-sizing: border-box;
+  }
+  .company-icon{
+    font-family: "Delicious Unicase",cursive;
+    font-size: 44px;
+  }
+  .menu-items{
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    align-items: center;
+  }
+  .menu-items li{
+    margin-right: 3rem;
+  }
+  .menu-items li select{
+    background: transparent;
+    border: none;
+    color: white;
+  }
+  .menu-items li input{
+    border-radius: 50px;
+    padding: 10px ;
+    background-repeat: no-repeat;
+    background-position: 9.5rem;
+    background-size: 1.5rem;
+    border-style: none;
+  }
+  .menu-items li input:focus{
+    outline: none;
+  }
+  .bars{
+    height: 35px;
+  }
+  .apps{
+    z-index: 100;
+    position: fixed;
+    top: 30%;
+    left: 97.2%;
+    float: right;
+    scale: 1.0;
+    margin-right: 10px;
+  }
+  .apps img{
+    height: 250px;
+   width: fit-content;
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    width: 87vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+  }
+  .top-left img {
+    height: 55vh;
+    box-shadow:rgb(94, 91, 91) 0px 5px 20px;
+    border-radius: 20px;
+  }
+  .top-right {
+    background-color: #E5D8FF;
+    font-family: 'DM Sans', sans-serif;
+    padding: 32px;
+    border-radius: 20px;
+    height: 55vh;
+    width: 75%;
+    box-sizing: border-box;
+    margin-left: 40px;
+  }
+  .top-right p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #6F7373;
+  }
+  .allbox{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 40px;
+    justify-content: space-between;
+  }
+  .detail-box{
+    width: 20%;
+    margin-top: 15px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    box-shadow: 0px 9px 31px rgba(0,0,0,0.4);
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 17px;
+    height: 72px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .box-1{
+    background-color: #929DFF;
+  }
+  .box-2{
+    background-color: #734CF2;
+  }
+  .box-3{
+    background-color: #D288FF;
+  }
+  .box-4{
+    background-color: #000000;
+  }
+  .bottom{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #483EFF;
+    width: 90vw;
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-bottom: 10vh;
+  }
+  .bottom-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .bottom-left button{
+    padding: 15px 35px;
+    background-color:transparent;
+    border-color: white;
+    border-radius: 12px;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    color: white;
+    font-weight: 700;
+    border-style: solid;
+  }
+  .bottom-left button:first-of-type{
+    background: #BCE0F6;
+    color: black;
+    box-shadow: 0px 8px 37px rgba(0,0,0,0.39);
+  }
+  .bottom-right{
+    box-sizing: border-box;
+    width: 70%;
+    background-color: white;
+    height: 90%;
+    margin: 3% 0 3% 0;
+    border-radius: 30px;
+    padding: 30PX 40PX;
+    position: relative;
+  }
+  .heading{
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0.107;
+    color: #04285A;
+  }
+  .bottom-text{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.105rem;
+    color: #04285A;
+  }
+  .next{
+    background-color: black;
+    color: white;
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 8px;
+    right: 2%;
+    bottom: 6%;
+  }
+  .bottom-text span{
+    margin-left: 2%;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.105em;
+    color:  #04285A ;
+  }
+  .next img{
+    width: 30%;
+    margin-left:1%;
+  }
+  .chatbot {
+    position: fixed;
+    right:55px;
+    bottom: -11px;
+    padding: 7px;
+    width: 8%;
+    border-radius: 100%;
+    z-index: 1;
+  }
